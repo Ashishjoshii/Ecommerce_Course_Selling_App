@@ -17,7 +17,7 @@ function Purchases() {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false); // Sidebar open state
 
   const navigate = useNavigate();
-    const user = JSON.parse(localStorage.getItem("user"));
+  const user = JSON.parse(localStorage.getItem("user"));
   const token = user?.token; // using optional chaining to avoid app crashing
 
   console.log("purchases: ", purchases);
