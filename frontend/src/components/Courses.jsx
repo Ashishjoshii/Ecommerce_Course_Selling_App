@@ -101,9 +101,9 @@ function Courses() {
               </a>
             </li>
             <li className="mb-4">
-              <a href="/purchases" className="flex items-center">
+              <Link to={"/purchases"} className="flex items-center">
                 <FaDownload className="mr-2" /> Purchases
-              </a>
+              </Link>
             </li>
             <li className="mb-4">
               <a href="#" className="flex items-center">
